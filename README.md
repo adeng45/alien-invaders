@@ -44,7 +44,7 @@ An Ably API Key to run the app, which can be made [here](https://ably.com/sign-u
 
 1. Title the pull request with a short description of the changes made. For example, you can title an issue like so "Added volume control feature".
 
-1. In the description of the pull request, explain the changes that you made, any issues you think exist with the pull request you made, and any questions you may have. It's OK if your pull request is not perfect (no pull request is), I would love to see your ideas anyways  : \)
+1. In the description of the pull request, explain the changes that you made, any issues you think exist with the pull request you made, and any questions you may have. It's OK if your pull request is not perfect (no pull request is), I would love to see your ideas anyways     : \)
 <br> 
 
 Hope you have fun!
