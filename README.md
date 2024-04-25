@@ -1,12 +1,12 @@
 ![](./public/space-invaders-hero.svg)
 
-# Realtime multiplayer game of Space Invaders
+# About
 
 This project runs a realtime multiplayer version of the classic retro game, Space Invaders.
 
 ![Preview of the game](https://user-images.githubusercontent.com/5900152/84092843-7ea1ce80-a9f0-11ea-809d-41cd20fb8e59.gif)
 
-## Services/ libraries used in the game
+## Services/libraries 
 
 - [Phaser 3](https://phaser.io)
 - [p2 NPM library](https://www.npmjs.com/package/p2)
@@ -14,7 +14,7 @@ This project runs a realtime multiplayer version of the classic retro game, Spac
 
 You will require an Ably API Key to run the app, which can be made [here](https://ably.com/sign-up)
 
-# How to run this game
+# To run
 
 1. Clone this repo locally
 1. Navigate to the project folder and run `npm install` to install the dependencies
