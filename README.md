@@ -15,6 +15,8 @@ This project runs a realtime multiplayer version of the classic retro game, Spac
 
 You will require an Ably API Key to run the app, which can be made [here](https://ably.com/sign-up)
 <br>
+<br>
+<br>
 
 ## To run
 
