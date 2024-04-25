@@ -1,0 +1,426 @@
+@font-face {
+  font-family: Classic;
+  src: url(./Nineteen\ Ninety\ Seven.otf);
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input {
+  height: 40px;
+  display: block;
+  margin: 0;
+  padding: 5px 10px;
+  border: 0;
+  border-right: 1px solid silver;
+  border-radius: 0;
+  font-size: 16px;
+}
+
+.intro-body {
+  font-family: "VT323";
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+  background-color: black;
+  background-image: url("https://cdn.glitch.com/f66772e3-bbf6-4f6d-b5d5-94559e3c1c6f%2FScreenshot%202020-05-19%20at%2013.36.26.png?v=1589892011044");
+  padding-top: 50px;
+}
+
+.intro-img {
+  width: 80%;
+  max-width: 800px;
+}
+
+.room-full-body {
+  font-family: "VT323";
+  font-size: 52px;
+  text-align: center;
+  color: #fff;
+  background-color: black;
+}
+
+.index-body {
+  font-family: "VT323";
+  font-size: 22px;
+  color: #fff;
+  background-color: black;
+}
+
+.title-text {
+  font-family: Classic;
+  font-size: 60px;
+  font-weight: 100;
+  letter-spacing: 10px;
+  background-color: black;
+}
+
+.title-text span {
+  font-weight: 100;
+  display: inline-block;
+  height: 20px;
+  font-size: 10px;
+  letter-spacing: 0px;
+}
+
+.game-text {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game-instructions {
+  width: 80%;
+  margin: 20px auto;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.create-room {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  display: inline-block;
+}
+
+.button-center {
+  display: inline-block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.room-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.card {
+  border: none;
+}
+
+.card-header {
+  background-color: black;
+}
+
+/* Bootstrap overwrite */
+.nav-tabs .nav-item {
+  margin-bottom: 0px;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  color: #495057;
+  border: none;
+  background-color: black;
+}
+
+.nav-tabs .nav-link:hover {
+  color: white;
+  /* border-bottom: 1px white solid;  */
+}
+
+.nav-tabs .nav-link.active {
+  color: white; 
+  background-color: black;
+  border-bottom: 1px white solid; 
+}
+
+.form-control, .form-control:focus {
+  background-color: black;
+  border-radius: 0;
+  color: white;
+}
+
+.form-control:hover::placeholder, .form-control:focus::placeholder {
+  color: white;
+}
+
+.btn.btn-primary {
+  background-color: black;
+  border: none;
+  font-size: 30px;
+  color: #495057;
+}
+
+.btn.btn-primary:hover{
+  color: white;
+}
+
+/* Specifically target button */
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: none;
+  background-color: black;
+  border: none;
+}
+
+.btn.btn-primary:focus {
+  box-shadow: none;
+}
+
+/* ==================== */
+
+.nickname {
+  width: 30%;
+  min-width: 300px;
+  margin: 30px auto 10px;
+  text-align: center;
+}
+
+#score {
+  width: 100px;
+  margin-right: 10px;
+}
+
+#room-code {
+  width: 480px;
+}
+
+#deaths {
+  margin-left: auto;
+  text-align: right;
+}
+
+.game-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-div {
+  margin: 20px;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.game-div-container {
+  text-align: center;
+  display: block;
+}
+
+.game-headline-left {
+  float: left;
+}
+
+.game-headline-right {
+  float: right;
+}
+
+.winner-body {
+  font-family: "VT323";
+  font-size: 62px;
+  text-align: center;
+  color: #fff;
+  background-color: black;
+  background-image: url("https://cdn.glitch.com/f66772e3-bbf6-4f6d-b5d5-94559e3c1c6f%2FScreenshot%202020-05-19%20at%2013.36.26.png?v=1589892011044");
+}
+
+.winner-div {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 82px;
+}
+
+.winner-text {
+  text-transform: uppercase;
+}
+
+.runner-ups-div {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 42px;
+}
+
+.bg-modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  position: relative;
+  width: 500px;
+  height: 250px;
+  padding: 20px;
+  border: 5px solid white;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 28px;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "VT323";
+  color: white;
+  background-color: #000;
+}
+
+.button:hover {
+  border: 2px solid black;
+  color: #000;
+  background-color: white;
+}
+
+.button:active {
+  border: 2px solid black;
+  color: #000;
+  background-color: white;
+}
+
+label {
+  display: block;
+  margin: 15px auto;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 42px;
+  cursor: pointer;
+}
+
+.text-group {
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+.input-button {
+  flex-shrink: 0;
+  width: max-content;
+  height: 40px;
+  padding: 0 20px;
+  border: 0;
+  color: var(--gray);
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.input-button:hover {
+  color: white;
+  background-color: var(--gray);
+}
+
+.room-input-text {
+  margin: 0 10px;
+}
+
+.room-code {
+  min-width: 300px;
+}
+
+.img-invaders {
+  width: 60%;
+}
+
+.copy {
+  width: 60px;
+  height: 60px;
+}
+
+.audio-control {
+  display: flex;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.audio-label {
+  margin: 0 15px;
+}
+
+.audio-chkbox {
+  padding: 0;
+  height: 25px;
+}
+
+/*======================*/
+
+.game-card {
+  margin: 10px 50px;
+  border: 3px solid white;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  margin: 5vh auto;
+}
+
+.info-bar {
+  display: flex;
+  padding: 10px 50px;
+  justify-content: space-evenly;
+}
+
+.game-btn-container {
+  position: relative;
+  height: 40px;
+}
+
+.game-btn-container .btn.btn-primary {
+  font-family: "VT323";
+  color: #495057;
+  padding: 10px;
+  background-color: black;
+  font-size: 20px;
+  border-style: none;
+}
+
+.game-btn-container .btn.btn-primary:hover {
+  cursor: pointer;
+  color: white;
+}
+
+#btn-startgame {
+  position: absolute;
+} 
+
+.start-btn-div {
+  text-align: center;
+  font-family: inherit;
+}
+
+.start-info-card {
+  width: 50%;
+  margin: 20px;
+}
+
+.nav-tabs {
+  justify-content: center;
+}
+
+.input-box {
+  text-align: center;
+}
+
+.create-wait-msg {
+  display: none;
+
+}
