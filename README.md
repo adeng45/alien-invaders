@@ -1,6 +1,6 @@
 ![](./public/space-invaders-hero.svg)
 
-# A rebuild of the classic retro game Space Invaders, but made multiplayer!
+## A rebuild of the classic retro game Space Invaders, but made multiplayer!
 
 ![Preview of the game](https://user-images.githubusercontent.com/5900152/84092843-7ea1ce80-a9f0-11ea-809d-41cd20fb8e59.gif)
 <br>
