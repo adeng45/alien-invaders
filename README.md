@@ -26,6 +26,17 @@ An Ably API Key to run the app, which can be made [here](https://ably.com/sign-u
 1. Run the server with `node server.js` and then open a brower to [localhost:8080](http://localhost:8080)
 <br>
 
+## To do
+
+- [x] Set up basic site
+- [x] Locating necessary resources(SVGs, fonts, ...)
+- [x] Room create/join
+- [x] Game logic + rendering
+- [x] Server synchronization between multiple players
+- [ ] Handling page navigation (in progress)
+- [ ] Final styling
+<br> 
+
 ## To contribute
 
 1. How do I make a contribution? 
