@@ -7,6 +7,9 @@ This project runs a realtime multiplayer version of the classic retro game, Spac
 ![Preview of the game](https://user-images.githubusercontent.com/5900152/84092843-7ea1ce80-a9f0-11ea-809d-41cd20fb8e59.gif)
 <br>
 
+DEMO (https://alieninvaders-ad45-fc21889250c8.herokuapp.com/)
+<br>
+
 ## Services/libraries 
 
 - [Phaser 3](https://phaser.io)
