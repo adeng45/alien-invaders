@@ -39,6 +39,8 @@ An Ably API Key to run the app, which can be made [here](https://ably.com/sign-u
 
 ## To contribute
 
+Have no fear! This project is distributed under the MIT license, free to be shared/used by all!
+
 1. How do I make a contribution? 
 
 1. Fork the repository. 
